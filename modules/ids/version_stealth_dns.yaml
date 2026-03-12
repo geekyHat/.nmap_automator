@@ -1,0 +1,3 @@
+name: "Stealth_Banner_Grab"
+description: "Tenta di leggere il banner del servizio senza inviare probe aggressivi. Usa source-port 53."
+command: "nmap -Pn -n -p 50000 --script banner --source-port 53"

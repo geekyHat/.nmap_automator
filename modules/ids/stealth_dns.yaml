@@ -1,0 +1,3 @@
+name: "Stealth_DNS_Bypass"
+description: "Esegue una scansione simulando il traffico proveniente dalla porta 53 (DNS). Utile quando il firewall si fida della porta 53."
+command: "nmap -Pn -n -O --source-port 53"

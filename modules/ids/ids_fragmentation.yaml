@@ -1,0 +1,3 @@
+name: "IDS_Fragmentation"
+description: "Frammenta i pacchetti in piccoli pezzi (8/16 byte) per confondere la firma dell'attacco analizzata dall'IDS."
+command: "nmap -Pn -n -f --mtu 24"

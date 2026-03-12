@@ -1,0 +1,4 @@
+name: "Insane_Service_Scan"
+description: "Scansione dei servizi con timing Insane (-T5). Estremamente veloce, ma può mancare porte o triggerare IDS."
+command: "nmap -sV -T5 -Pn -n --version-light"
+

@@ -1,0 +1,3 @@
+name: "Aggressive_Recon"
+description: "Abilita OS detection, versioning, script di default e traceroute (-A). Molto rumoroso."
+command: "nmap -A -Pn -n"

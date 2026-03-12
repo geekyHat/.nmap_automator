@@ -1,0 +1,3 @@
+name: "Service_Version_Stealth"
+description: "Esegue il rilevamento delle versioni utilizzando la porta sorgente 53 per eludere i filtri sulla scansione dei banner."
+command: "nmap -n -Pn -sV --source-port 53 --stats-every 10s"

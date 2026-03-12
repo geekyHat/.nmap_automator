@@ -1,0 +1,3 @@
+name: "Host_Alive_Check"
+description: "Verifica se l'host è attivo usando pacchetti SYN/ACK su porte comuni, bypassando il blocco ICMP."
+command: "nmap -sn -Pn -PS22,80,443"

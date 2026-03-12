@@ -1,0 +1,3 @@
+name: "Fast_Top_100"
+description: "Scansione ultra-rapida delle 100 porte più comuni. Ideale per un primo sguardo al target."
+command: "nmap -F -Pn -n --open"

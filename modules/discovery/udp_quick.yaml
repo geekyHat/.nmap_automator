@@ -1,0 +1,3 @@
+name: "UDP_Quick_Discovery"
+description: "Scansione veloce delle porte UDP più comuni (DNS, SNMP, NTP, ecc.)."
+command: "nmap -sU -F -Pn -n --max-retries 1"

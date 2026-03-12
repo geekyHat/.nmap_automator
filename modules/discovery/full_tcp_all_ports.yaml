@@ -1,0 +1,3 @@
+name: "Full_TCP_All_Ports"
+description: "Scansiona l'intero range di porte TCP (1-65535). Lento ma completo."
+command: "nmap -p- -Pn -n --open"
