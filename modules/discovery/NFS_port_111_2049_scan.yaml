@@ -1,3 +1,3 @@
-name: "NFS Scan"
+name: "NFS_Scan"
 description: "Scansione le porte 111 e 2049 per il footprinting di NFS)."
 command: "sudo nmap 10.129.14.128 -p111,2049 -sV -sC"
