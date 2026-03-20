@@ -1,0 +1,3 @@
+name: "MYSQL_3306__SCRIPT_SCAN"
+description: "Scans mysql with script and searchs for password or credentials"
+command: "nmap -sV -p 3306 --script mysql-audit,mysql-databases,mysql-dump-hashes,mysql-empty-password,mysql-enum,mysql-info,mysql-query,mysql-users,mysql-variables,mysql-vuln-cve2012-2122"
